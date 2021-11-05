@@ -1,0 +1,20 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "uber": "npm run dev -- --uber",
+    "log": "npm run dev -- --log",
+    "eats": "npm run dev -- --eats"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.14",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  },
+  "description": ""
+}
